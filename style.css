@@ -1,0 +1,26 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(55, 55, 131);
+    height: 250px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-links {
+    
+}
