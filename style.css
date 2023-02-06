@@ -6,6 +6,8 @@ body {
 
 .header {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .header a {
@@ -13,7 +15,7 @@ body {
     text-decoration: none;
 }
 
-h1 {
+.mainblurb {
     color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
@@ -21,9 +23,13 @@ h1 {
 
 .headerlinks {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.right-links {
+    display: flex;
+    gap: 18px;
 }
 
 .header-left-block {
@@ -31,6 +37,7 @@ h1 {
     flex-direction: column;
     flex-wrap: wrap;
     width: 300px;
+    justify-content: center;
 }
 
 button {
