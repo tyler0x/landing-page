@@ -51,4 +51,16 @@ button {
     background-color: #3882f6;
     max-width: 100px;
     color: #f9faf8;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.blockone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerimage {
+    width: 250px;
+    height: 200px;
 }
