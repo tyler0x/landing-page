@@ -193,3 +193,13 @@ body {
     padding-bottom: 5px;
     border: white solid 1px;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    font-size: 12px;
+}
