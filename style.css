@@ -43,16 +43,23 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 300px;
+    width: 350px;
     justify-content: center;
+    margin-top: 50px;
 }
 
 button {
     background-color: #3882f6;
     max-width: 100px;
     color: #f9faf8;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-weight: 700;
     margin-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: black solid 1px;
 }
 
 .blockone {
@@ -61,6 +68,15 @@ button {
 }
 
 .headerimage {
-    width: 250px;
+    width: 375px;
     height: 200px;
+    border: whitesmoke solid 2px;
+    margin-top: 50px;
+}
+
+.headertwo {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
 }
