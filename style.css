@@ -54,7 +54,7 @@ body {
     margin-top: 50px;
 }
 
-button {
+.buttonone {
     background-color: #3882f6;
     width: 100px;
     height: 30px;
@@ -131,15 +131,65 @@ button {
 .quotecontainer {
     display: flex;
     flex-direction: column;
+    max-width: 590px;
 }
 
 .quote {
     font-size: 26px;
     color: #1f2937;
     font-style: italic;
+    flex-shrink: 0;
 }
 
 .quoteattribution {
     font-weight: 700;
     align-self: flex-end;
+}
+
+.fourthcontainer {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actioncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    height: 100px;
+    width: 750px;
+    border-radius: 6px;
+    gap: 75px;
+}
+
+.actionwords {
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.itstime {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.signup {
+    font-size: 14px;
+}
+
+.buttontwo {
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    color: #f9faf8;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: white solid 1px;
 }
