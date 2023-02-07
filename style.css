@@ -47,11 +47,9 @@ body {
 }
 
 .header-left-block {
-    flex: 1;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 350px;
     justify-content: center;
     margin-top: 50px;
 }
