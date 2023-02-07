@@ -80,3 +80,20 @@ button {
     color: #1f2937;
     text-align: center;
 }
+
+.plane, 
+.dudes,
+.palmtree,
+.cars {
+    height: 150px;
+    width: 150px;
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
+}
+
+.midpics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
