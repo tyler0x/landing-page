@@ -50,9 +50,10 @@ body {
 
 button {
     background-color: #3882f6;
-    max-width: 100px;
+    width: 100px;
+    height: 30px;
     color: #f9faf8;
-    border-radius: 8px;
+    border-radius: 6px;
     font-weight: 700;
     margin-top: 10px;
     padding-left: 16px;
@@ -81,19 +82,24 @@ button {
     text-align: center;
 }
 
-.plane, 
-.dudes,
-.palmtree,
-.cars {
+.midimages {
     height: 150px;
     width: 150px;
     border: #3882f6 solid 3px;
     border-radius: 10px;
 }
 
-.midpics {
+.midimagecontainer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 150px;
+    text-align: center;
 }
